@@ -23,6 +23,16 @@
     padding: 10px;
 }
 
+.debug .main-section {
+    min-height: 200px;
+    padding: 10px;
+    background-color: #00108B;
+}
+
+.debug .main-section .row {
+    border: 1px solid black;
+}
+
 /*header*/
 
 .container {
@@ -32,11 +42,13 @@
 
 .page-header .row {
     display: flex;
+    margin-top: 10px;
 }
 
 .navbar-links {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .col-3 {
@@ -46,4 +58,12 @@
 .col-6 {
     flex-basis: calc(100% / 2);
 }
+
+/*main*/
+
+.main-section .row {
+    display: flex;
+}
+
+
 
