@@ -119,11 +119,16 @@
 
 .footer-section {
     background-color: #23272A;
-    min-height: 300px;
+    min-height: 200px;
 }
 
 .footer-section .row {
     display: flex;
+}
+
+.up .col-4 {
+    flex-basis: calc(100%/3);
+    background-color: #F08080;
 }
 
 .col-2 {
@@ -133,6 +138,7 @@
 
 .down .row {
     justify-content: space-between;
+    background-color: #7FFFD4;
 }
 
 
