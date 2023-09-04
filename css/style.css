@@ -115,6 +115,25 @@
     background-color: #228B22;
 }
 
+/*footer*/
+
+.footer-section {
+    background-color: #23272A;
+    min-height: 300px;
+}
+
+.footer-section .row {
+    display: flex;
+}
+
+.col-2 {
+    flex-basis: calc(100%/6);
+    background-color: #21B2AA;
+}
+
+.down .row {
+    justify-content: space-between;
+}
 
 
 
