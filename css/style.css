@@ -19,14 +19,14 @@
 
 .debug [class^='col-'] {
     border: 1px dotted black;
-    min-height: 40px;
+    
     padding: 10px;
 }
 
 .debug .main-section {
     min-height: 200px;
     padding: 10px;
-    background-color: #00108B;
+    
 }
 
 .debug .main-section .row {
@@ -54,15 +54,21 @@
 
 .col-3 {
     flex-basis: calc(100% / 4);
+    min-height: 40px;
 }
 
 .col-6 {
     flex-basis: calc(100% / 2);
+    min-height: 40px;
 }
 
 /*main*/
 
 /*main section1*/
+
+.blue {
+    background-color: #00108B;
+}
 
 .main-section .row {
     display: flex;
@@ -76,6 +82,24 @@
 }
 
 /*main section2*/
+
+.white {
+    background-color: white;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 3)*2);
+    background-color: #1E90FF;
+    min-height: 150px;
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+    background-color: #FFC0CB;
+    min-height: 150px;
+}
+
+/*main section3*/
 
 
 
