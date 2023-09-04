@@ -17,13 +17,33 @@
     border: 1px solid black;
 }
 
+.debug [class^='col-'] {
+    border: 1px dotted black;
+    min-height: 40px;
+    padding: 10px;
+}
+
+/*header*/
+
 .container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.row {
+.page-header .row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
