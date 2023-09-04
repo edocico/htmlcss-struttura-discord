@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug */
+
+.debug .page-header {
+    padding: 10px;
+    min-height: 100px;
+    background-color: skyblue;
+}
+
+.debug .row{
+    background-color: #DAA520;
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
