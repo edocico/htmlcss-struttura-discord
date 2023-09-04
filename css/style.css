@@ -72,6 +72,15 @@
 
 .main-section .row {
     display: flex;
+}
+
+.blue .row {
+    width: 80%;
+}
+
+.blue .container {
+    justify-content: center;
+    display: flex;
     
 }
 
@@ -120,6 +129,7 @@
 .footer-section {
     background-color: #23272A;
     min-height: 200px;
+    border-bottom: 3px solid #EEEEEE;
 }
 
 .footer-section .row {
